@@ -41,7 +41,7 @@ zvse/
 1. **Klonen** des Repositories:
 
    ```bash
-   git clone https://github.com/deinname/zvse.git
+   git clone https://github.com/marcdziersan/z-VSE-Websystem-Terminal-Simulation-Dataset-Management.git zvse
    cd zvse
    ```
 
