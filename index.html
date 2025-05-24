@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>z/VSE Terminal-Simulation</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #0f0;
+      font-family: monospace;
+      padding: 20px;
+    }
+    #terminal {
+      border: 1px solid #0f0;
+      padding: 10px;
+      height: 400px;
+      overflow-y: auto;
+      white-space: pre-wrap;
+    }
+    #input {
+      width: 100%;
+      padding: 5px;
+      background: #000;
+      color: #0f0;
+      border: none;
+      font-family: monospace;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>z/VSE Terminal-Simulation</h1>
+  <div id="terminal">Willkommen bei z/VSE
+Geben Sie einen Befehl ein:
+</div>
+  <input type="text" id="input" autocomplete="off" autofocus />
+
+  <script src="zvse.js"></script>
+</body>
+</html>
